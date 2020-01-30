@@ -31,7 +31,7 @@ namespace Infrastructure.Migrations
                     Id = table.Column<Guid>(nullable: false),
                     Created = table.Column<DateTime>(nullable: false),
                     LastModified = table.Column<DateTime>(nullable: true),
-                    AccountNumber = table.Column<string>(maxLength: 15, nullable: false),
+                    AccountNumber = table.Column<string>(maxLength: 20, nullable: false),
                     AccountName = table.Column<string>(maxLength: 50, nullable: false),
                     AccountLevel = table.Column<int>(nullable: false),
                     CustomerId = table.Column<Guid>(nullable: false)

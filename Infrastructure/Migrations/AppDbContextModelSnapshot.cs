@@ -33,7 +33,7 @@ namespace Infrastructure.Migrations
                     b.Property<string>("AccountNumber")
                         .IsRequired()
                         .HasColumnType("TEXT")
-                        .HasMaxLength(15);
+                        .HasMaxLength(20);
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("TEXT");

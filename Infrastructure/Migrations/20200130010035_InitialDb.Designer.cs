@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20200129124103_InitialDb")]
+    [Migration("20200130010035_InitialDb")]
     partial class InitialDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace Infrastructure.Migrations
                     b.Property<string>("AccountNumber")
                         .IsRequired()
                         .HasColumnType("TEXT")
-                        .HasMaxLength(15);
+                        .HasMaxLength(20);
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("TEXT");
