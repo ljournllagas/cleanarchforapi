@@ -22,9 +22,6 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("AccountLevel")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("AccountName")
                         .IsRequired()
                         .HasColumnType("TEXT")

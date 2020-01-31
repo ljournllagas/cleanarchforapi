@@ -10,8 +10,8 @@ namespace Domain.Entities
         public Guid Id { get; set; }
         public string AccountNumber { get; set; }
         public string AccountName { get; set; }
-        public AccountLevel AccountLevel { get; set; }
-        public Customer Customer { get; set; }
         public Guid CustomerId { get; set; }
+        public Customer Customer { get; set; }
+     
     }
 }

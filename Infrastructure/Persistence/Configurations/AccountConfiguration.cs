@@ -16,8 +16,6 @@ namespace Infrastructure.Persistence.Configurations
                 .HasMaxLength(50)
                 .IsRequired();
 
-            builder.Property(t => t.AccountLevel)
-                .IsRequired();
         }
     }
 }
